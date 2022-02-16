@@ -103,3 +103,24 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+
+### Programming Project 2
+```
+makeChacheMatrix <- function( m = matrix()){
+    i <- NULL
+    M1 <- function(matrix){
+        m <<- matrix
+        i <<- NULL
+    }
+    M2 <- function(){
+        m
+    }
+    M3 <- function(inverse){
+        i <<- inverse
+    }
+    M4 <- function(){
+    i
+    }
+    list(set = M1, get = M2, setInverse = M3, getInverse = M4)
+}
+```
